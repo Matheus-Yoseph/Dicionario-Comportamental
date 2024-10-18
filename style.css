@@ -1,0 +1,145 @@
+/* Reseta algumas propriedades padrão do navegador */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Quicksand", sans-serif;
+}
+
+/* Personaliza o botão */
+body{
+    cursor: url('Cursor_48x48.cur'), auto;
+}
+
+/* Define o cursor padrão para o corpo */
+button, a{
+    cursor: url('Cursor_48x48.cur'), auto; /* Caminho para o cursor personalizado */
+}
+
+/* Define o estilo do corpo da página */
+body {
+    line-height: 1.6; /* Melhora a legibilidade */
+    /*background-color: #F5FFFA; Cor de fundo clara */
+    color: #696969; /* Cor do texto */
+    padding: 20px; /* Espaçamento interno */
+    background-image: url(Fundo.webp);
+    background-size: cover; /* A imagem vai cobrir toda a tela */
+    background-position: center; /* Centraliza a imagem */
+    background-repeat: no-repeat; /* Impede que a imagem se repita */
+    background-attachment: fixed; /* A imagem não rola com o conteúdo */
+}
+
+/* Estilo do cabeçalho */
+header {
+    background: #ADD8E6; /* Cor de fundo do cabeçalho */
+    color: white; /* Cor do texto */
+    padding: 20px; /* Espaçamento interno */
+    text-align: center; /* Centraliza o texto */
+    border-radius: 8px; /* Bordas arredondadas */
+}
+
+/* Estilo dos títulos */
+h1 {
+    font-size: 2.5rem; /* Tamanho da fonte do título principal */
+    text-align: center;
+    font-family: "Quicksand", sans-serif;
+}
+
+h2 {
+    font-size: 1.8rem; /* Tamanho da fonte do título secundário */
+    margin-top: 20px; /* Margem acima do título */
+    text-align: center;
+    font-family: "Quicksand", sans-serif;
+}
+
+/* Estilo dos botões */
+button {
+    background: #90EE90; /* Cor de fundo do botão */
+    border: none; /* Remove borda padrão */
+    color: white; /* Cor do texto do botão */
+    padding: 10px 20px; /* Espaçamento interno do botão */
+    border-radius: 5px; /* Bordas arredondadas do botão */
+    font-size: 1rem; /* Tamanho da fonte do botão */
+    cursor: pointer; /* Muda o cursor ao passar sobre o botão */
+    transition: background 0.3s; /* Transição suave ao passar o mouse */
+}
+
+button:hover {
+    background: #218838; /* Cor do botão ao passar o mouse */
+}
+
+/* Estilo dos links dentro dos botões */
+button a {
+    color: white; /* Cor do texto do link */
+    text-decoration: none; /* Remove o sublinhado */
+}
+
+/* Estilo do parágrafo */
+p {
+    margin-top: 20px; /* Margem acima do parágrafo */
+    font-size: 1rem; /* Tamanho da fonte do parágrafo */
+    text-align: center;
+    font-family: "Quicksand", sans-serif;
+    font-weight: 300;
+}
+
+/* Estilo do rodapé */
+footer {
+    text-align: center; /* Centraliza o texto do rodapé */
+    margin-top: 30px; /* Margem acima do rodapé */
+    font-size: 0.9rem; /* Tamanho da fonte do rodapé */
+}
+
+/* Estilo dos links no rodapé */
+footer a {
+    color: #007BFF; /* Cor dos links */
+    text-decoration: none; /* Remove o sublinhado */
+}
+
+footer a:hover {
+    text-decoration: underline; /* Sublinha o link ao passar o mouse */
+}
+
+/* Adiciona uma linha horizontal para separar seções */
+hr {
+    border: 0;
+    border-top: 1px solid #ccc; /* Cor da linha */
+    margin: 20px 0; /* Margens acima e abaixo da linha */
+}
+.Botões {
+    text-align: center; /* Centraliza o texto (incluindo botões) dentro do contêiner */
+    margin: 20px 0; /* Adiciona margem acima e abaixo do contêiner */
+}
+/* Centraliza o botão de música */
+.musica-botao {
+    display: flex;
+    justify-content: center; /* Centraliza horizontalmente */
+    align-items: center; /* Centraliza verticalmente */
+    margin: 20px 0; /* Margem em cima e embaixo */
+}
+
+/* Estilo específico para o botão de música */
+.player-botao {
+    background-color: transparent; /* Fundo transparente */
+    border: 2px solid #ADD8E6; /* Borda azul clara */
+    border-radius: 50%; /* Botão circular */
+    padding: 15px; /* Espaçamento interno */
+    cursor: pointer; /* Muda o cursor ao passar o mouse */
+    transition: background-color 0.3s, transform 0.3s; /* Animação suave */
+}
+
+.player-botao:hover {
+    background-color: rgba(173, 216, 230, 0.2); /* Fundo levemente azul ao passar o mouse */
+    transform: scale(1.1); /* Aumenta levemente o tamanho do botão */
+}
+
+/* Estilo para o ícone dentro do botão */
+.player-botao svg {
+    width: 30px;
+    height: 30px;
+    fill: #ADD8E6; /* Cor do ícone */
+}
+
+h3{
+    text-align: center;
+}
