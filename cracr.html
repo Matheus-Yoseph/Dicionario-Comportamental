@@ -13,33 +13,48 @@
         <br> <!--Quebra de linha-->
     </header>
     <main>
-    <hr>
-    <br>
-    <p>Caso queira uma trilha sonora aperte o botão abaixo:</p>
-    <br>
-    <div class="musica-botao">
-        <button id="play-btn" class="player-botao">&#10074;&#10074;</button> <!-- Ícone de pause/play -->
-    </div>
-    
-    <audio id="musica" preload="auto">
-        <source src="Trilha-sonora.mp3" type="audio/mpeg">
-    </audio>
-    <br>
-    <h3>Créditos da Música</h3>
-    <br>
-    <p><b>Nome:</b> Te Espero</p>
-    <br>
-    <p><b>Composição:</b> Alice Coelho</p>
-    <br>
-    <p><b>Voz:</b> Alice Coelho</p>
-    <br>
-    <p><b>Produção Musical:</b> Miguel Nicolau</p>
-    <br>
-    <p><b>Mix:</b> Miguel Nicolau</p>
-    <br>
-    <p><b>Master:</b> Nuno Monteiro</p>
-    <br>
-    <hr>
+        <hr>
+        <br>
+        <p>Caso queira uma trilha sonora aperte o botão abaixo:</p>
+        <br>
+        <div class="musica-botao">
+            <button id="play-btn" class="player-botao">&#10074;&#10074;</button> <!-- Ícone de pause/play -->
+        </div>
+        <audio id="musica" preload="auto">
+            <source src="Trilha-sonora.mp3" type="audio/mpeg">
+        </audio>
+        <audio id="transition-sound" src="som.mp3" preload="auto"></audio>
+        <br>
+        <hr>
+        <br>
+        <div class="Créditos">
+            <div class="esquerda">
+                <h3>Créditos da Música</h3>
+                <br>
+                <p><b>Feito por:</b></p>
+                <br>
+                <button type="button"><a href="https://pixabay.com/pt/users/sigmamusicart-36860929/?utm_source=link-attribution&utm_medium=referral&utm_campaign=music&utm_content=256262 "target= "_blank">Mikhail Smusev</a></button>
+                <br>
+                <br>
+                <p><b>Tirado do site:</b></p>
+                <br>
+                <button><a href="https://pixabay.com//?utm_source=link-attribution&utm_medium=referral&utm_campaign=music&utm_content=256262" target="_blank">Pixabay</a></button>               
+            </div> <!--esquerda-->
+            <div class="direita">                
+                <h3>Créditos do efeito sonoro</h3>
+                <br>
+                <p><b>Feito por:</b></p>
+                <br>
+                <button type="button"><a href="https://pixabay.com/pt/users/u_03k5gu83c1-32011299/?utm_source=link-attribution&utm_medium=referral&utm_campaign=music&utm_content=129007" target="_blank">u_03k5gu83c1</a></button>
+                <br>
+                <br>
+                <p><b>Tirado do site:</b></p>
+                <br>
+                <button type="button"><a href="https://pixabay.com/sound-effects//?utm_source=link-attribution&utm_medium=referral&utm_campaign=music&utm_content=129007" target="_blank">Pixabay</a></button>              
+            </div> <!--direita-->
+        </div> <!--Créditos-->
+        <br>
+        <hr>
         <br>
         <br>
         <h1>Conceitos relacionados ao condicionamento respondente</h1>
@@ -98,6 +113,7 @@
         <p>O aprendizado de um novo reflexo respondente <b>(reflexo condicionado)</b>, a partir do <b>emparelhamento</b> sucessivo entre um <b>estímulo neutro (NS)</b> (que não elicia a resposta em questão) e um <b> reflexo incondicionado</b> (<b>estímulo incondicionado (US)</b> que elicia a <b>resposta incondicionada (UR)</b>, quando usamos o termo incondicionado refere se a algo inato, ou seja, sem a necessidade de aprendizado), tornando o estímulo neutro em <b>estímulo condicionado (CS)</b> eliciador de uma <b>resposta condicionada (CR)</b>  (mesma resposta do  <b>estímulo incondicionado</b>).  Vale lembrar que apesar de os estímulos condicionado e incondicionado eliciarem a mesma resposta, a  resposta condicionada e a incondicionada possuem diferenças na magnitude, duração e latência.</p> <!--Definição do conceito-->
         <br> <!--Quebra de linha-->
         <p>Existem alguns fatores que aumentam a probabilidade de um condicionamento ocorrer e podem aumentar a magnitude da resposta, são eles: <b>frequência dos emparelhamentos</b> (quantidade de vezes em que um estímulo condicionado é emparelhado a um estímulo incondicionado), <b>Intensidade do estímulo condicionado</b>, <b>tipo do emparelhamento</b> (caso o estímulo neutro seja apresentado antes do estímulo condicionado e continue durante a sua aprentação, terá uma chance maior de condicionamento).</p> <!--Definição do conceito-->
+        <br>
         <hr> <!--Linha para dividir uma secão do site-->
         <br> <!--Quebra de linha-->
         <h2>História de condicionamento</h2> <!--Titulo conceito-->
@@ -158,11 +174,9 @@
         <hr> <!--Linha para dividir uma secão do site-->
     </main>
     <footer>
-        <br> <!--Quebra de linha-->
-        Sobre mim:
-        <br> <!--Quebra de linha-->
-        <br> <!--Quebra de linha-->
-        <a href="https://www.linkedin.com/in/matheus-ribeiro-67a32b288/" target="_blank">Meu Linkedin</a> <!--Link-->
+        <br>
+        <p>© 2024 Matheus Yoseph dos Santos Ribeiro</p>
+        <br>
     </footer> <!--Cabeçalho-->
     <script src="audio.js"></script> <!--Link Java-->
 </body>

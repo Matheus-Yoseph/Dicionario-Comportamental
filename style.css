@@ -143,3 +143,32 @@ hr {
 h3{
     text-align: center;
 }
+
+.Créditos{
+    display: flex;
+    justify-content: center; /* Centraliza o contêiner */
+    align-items: center;
+}
+
+.esquerda button{
+    width: 160px; /* Ajuste conforme necessário */
+}
+
+.esquerda{
+    text-align: left;
+    margin-left: 10%;
+    margin-right: 10%;
+    display: inline-block;
+}
+
+.direita{
+    text-align: right;
+    margin-left: 10%;
+    margin-right: 10%;
+    display: inline-block;
+}
+
+.direita button{
+    width: 160px; /* Ajuste conforme necessário */
+    margin-right: 20%;
+}
